@@ -2,7 +2,7 @@ def main(sudoku):
 
     problems = {"Rows": [], "Columns": [], "Sub-Grids": []}
 
-    sub_grids = {x + 1: [] for x in range(9)}
+    sub_grids = {x: [] for x in range(1, 10)}
 
     for i, row in enumerate(sudoku):
         column = [col[i] for col in sudoku]
