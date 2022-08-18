@@ -33,7 +33,7 @@ def main(sudoku):
 
 
 if __name__ == "__main__":
-    # SUDOKU 1
+    print("SUDOKU 1")
     main(
         [
             [8, 2, 9, 3, 6, 5, 1, 4, 7],
@@ -48,7 +48,7 @@ if __name__ == "__main__":
         ]
     )
 
-    # SUDOKU 2
+    print("SUDOKU 2")
     main(
         [
             [5, 8, 6, 4, 3, 7, 1, 9, 2],
@@ -63,7 +63,7 @@ if __name__ == "__main__":
         ]
     )
 
-    # SUDOKU 3
+    print("SUDOKU 3")
     main(
         [
             [1, 8, 3, 2, 7, 4, 6, 5, 9],
