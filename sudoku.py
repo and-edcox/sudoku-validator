@@ -1,4 +1,4 @@
-def main(sudoku: list) -> bool:
+def main(sudoku: list[list[int]]) -> bool:
 
     problems = {"Rows": [], "Columns": [], "Sub-Grids": []}
 
